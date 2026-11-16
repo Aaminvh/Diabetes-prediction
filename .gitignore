@@ -16,7 +16,9 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data: keep the raw CSV, ignore the redundant source archive and generated data
+# Data: the Kaggle CSV is not redistributed (licence: Data files © Original Authors); download it into Data/raw/
+Data/raw/*
+!Data/raw/.gitkeep
 Data/raw/*.zip
 Data/processed/*
 !Data/processed/.gitkeep
@@ -38,3 +40,7 @@ desktop.ini
 
 # Environment secrets
 .env
+
+# Local AI-assistant notes and settings (kept on this machine only)
+CLAUDE.md
+.claude/
