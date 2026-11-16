@@ -79,8 +79,8 @@ The full discussion is in section 7 of the notebook.
 Requires Python 3.10.
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Aaminvh/Diabetes-prediction.git
+cd Diabetes-prediction
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -r Notebook/requirements.txt
